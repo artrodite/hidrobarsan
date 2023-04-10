@@ -13,12 +13,12 @@ const routes = [
         component: HomeView
     },
     {
-        path: '/products',
+        path: '/urunlerimiz',
         name: 'products',
         component: ProductsView
     },
     {
-        path: '/products/product-details/:name',
+        path: '/urunlerimiz/:name',
         name: 'productDetail',
         component: ProductDetailsView
     }
