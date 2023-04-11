@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar flex items-center justify-between py-12 px-24">
+    <nav class="navbar bg-[#F7F7F7] flex items-center justify-between py-12 px-24 sticky top-0 z-10">
         <div class="w-40">
             <img alt="hidrobarsan-logo" src="../assets/logo.png">
         </div>

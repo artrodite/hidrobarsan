@@ -1,11 +1,11 @@
 <template>
     <div id="app">
         <Navbar/>
-
-        <transition mode="out-in" name="fade">
-            <router-view/>
-        </transition>
-
+        <div class="min-h-screen">
+            <transition mode="out-in" name="fade">
+                <router-view/>
+            </transition>
+        </div>
         <Footer/>
     </div>
 </template>
@@ -15,7 +15,14 @@ import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
 
 export default {
-    components: {Footer, Navbar}
+    components: {Footer, Navbar},
+    watch:{
+        $route (){
+            window.scrollTo(0,0, {
+                behavior: 'smooth'
+            })
+        }
+    }
 }
 
 

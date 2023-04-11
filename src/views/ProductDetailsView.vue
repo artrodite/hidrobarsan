@@ -1,14 +1,18 @@
 <template>
     <div class="px-24">
         <div class="flex flex-col">
-            <h1 class="text-6xl">{{ product.name }}</h1>
-            <span>{{ product.type ?? 'Tipi' }}</span>
+            <h1 class="text-6xl mb-4">{{ product.name }}</h1>
+            <span class="mb-8">{{ product.type ?? 'Tipi' }}</span>
             <div>
                 <button class="bg-[#FBB901] text-white px-4 py-2 text-sm">İletişime Geç</button>
             </div>
-
         </div>
-        {{ product }}
+        <div class="h-96 flex items-center justify-center bg-amber-50 my-12">
+            MODEL
+        </div>
+        <div class="h-96 w-2/3 mx-auto flex items-center justify-center bg-amber-50">
+            VİDO
+        </div>
     </div>
 </template>
 

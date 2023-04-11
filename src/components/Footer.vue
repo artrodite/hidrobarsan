@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#F0F0F0] w-full relative bottom-0">
+    <div class="bg-[#F0F0F0] w-full mt-12">
         <div class="pt-24 pb-12 px-36 text-sm flex items-start justify-around">
             <ul>
                 <li class="font-semibold"> Site</li>
