@@ -1,7 +1,11 @@
 <template>
     <div id="app">
         <Navbar/>
-        <router-view/>
+
+        <transition mode="out-in" name="fade">
+            <router-view/>
+        </transition>
+
         <Footer/>
     </div>
 </template>
@@ -23,5 +27,37 @@ export default {
 #app {
   font-family: 'Poppins', sans-serif;
   background-color: #F7F7F7;
+}
+
+.product-card:hover {
+  img {
+    transform: translateY(-33.3%) scale(1.1);
+  }
+}
+
+@keyframes swing {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
 }
 </style>

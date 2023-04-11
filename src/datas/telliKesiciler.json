@@ -1,20 +1,32 @@
 {
-  "deliciler": [
+  "telliKesiciler": [
     {
       "id": 1,
-      "name": "Y328",
+      "name": "6000M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/kesici.png"
     },
     {
       "id": 2,
-      "name": "Y327",
+      "name": "1260M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/delici.png"
     },
     {
       "id": 3,
-      "name": "108T",
+      "name": "4000Y",
+      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "imgUrl": "/images/categories/delici.png"
+    },
+    {
+      "id": 4,
+      "name": "3000Y",
+      "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
+      "imgUrl": "/images/categories/delici.png"
+    },
+    {
+      "id": 5,
+      "name": "3000M",
       "desc": "Uzaktan kumandasının yanı sıra, 8 metrelik kablolama sistemi sayesinde uzaktan kontrol edilebilirlik özelliği de Yengeç zincirli kollu kesme HZK3400 kullanıcılarına kolaylık sağlıyor.",
       "imgUrl": "/images/categories/delici.png"
     }
